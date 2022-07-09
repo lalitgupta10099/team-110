@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MensPage</title>
+    <style>
+        #parent{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        #parent>div{
+            width: 620px;
+            height: 100%;
+        }
+        #parent>div>div:first-child{
+            display: flex;
+            justify-content: center;
+        }
+        #parent>div>div>div{
+            width: 42%;
+        }
+        #parent>div>div>div>img{
+            width: 100%;
+            height: 400px;
+        }
+        #parent>div>div:last-child{
+            line-height: 20px;
+        }
+        #parent>div>div>h1{
+            font-size: 40px;
+        }
+        #parent>div>div>h1+p{
+            color: gray;
+            font-size: 35px;
+            line-height: 40px;
+        }
+        #parent>div>div>p+p>span:nth-child(1){
+            font-weight: 500;
+        }
+        #parent>div>div>p+p{
+            font-size: 40px;
+            margin-top: 60px;
+        }
+        #parent>div>div>p+p>span:nth-child(2){
+            font-size: 35px;
+            color: gray;
+            text-decoration: line-through;
+        }
+        #parent>div>div>p+p>span:nth-child(3){
+            color: gray;
+            text-decoration: line-through;
+        }
+        #parent>div>div>p+p>span:nth-child(4){
+            color: #00c853;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>
+            <div>
+                <div>
+                    <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=320&impolicy=hq" alt="">
+                </div>
+            </div>
+            <div>
+                <h1>Pause</h1>
+                <p>Men Cotton Long Sleeves Shrug</p>
+                <p><span>₹ 359 </span>
+                    <span>₹</span>
+                    <span>1,499</span>
+                    <span>-76%</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq" alt="">
+                </div>
+            </div>
+            <div>
+                <h1>ZUBINATION</h1>
+                <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+                <p><span>₹ 799 </span>
+                    <span>₹</span>
+                    <span>1,499</span>
+                    <span>-47%</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
