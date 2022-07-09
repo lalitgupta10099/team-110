@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-    <p>collabrate project</p>
-</body>
-</html>
+
+
+       Team   110 
+       fw20_1242  Lalit Kumar Gupta          lalitgupta10099@gmail.com 
+       fw20_1243  Rahul Uttam Suryawanshi    suryawanshirahul382@gmail.com 
+       fw20_1250  Gyan Prakash               inex.gyan@gmail.com 
+       fw20_1252  Shikha Gupta               sg780060@gmail.com 
+       fw20_1253  Subhadeep                  Bidsubhadipbid@gmail.com
